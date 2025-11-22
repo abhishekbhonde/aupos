@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  mongodb:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+    container_name: aupos-mongo
+
+  chromadb:
+    image: chromadb/chroma
+    ports:
+      - "8000:8000"
+    container_name: aupos-chroma
