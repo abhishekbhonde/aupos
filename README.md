@@ -78,5 +78,3 @@ yarn start
 * Load `apps/extension`
 
 ---
-
-# aupos
